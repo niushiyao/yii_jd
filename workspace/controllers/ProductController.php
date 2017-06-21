@@ -17,7 +17,8 @@ class ProductController extends Controller
      */
     public function actionIndex()
     {
-        return $this->renderPartial('index');
+        $this->layout = 'layout2';
+        return $this->render('index');
     }
     
     /**
@@ -27,7 +28,8 @@ class ProductController extends Controller
      */
      public function actionDetail()
      {
-         return $this->renderPartial('detail');
+         $this->layout = 'layout2';
+         return $this->render('detail');
      }
     
     

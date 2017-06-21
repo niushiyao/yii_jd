@@ -1,23 +1,23 @@
 <?php
 /**
- * 网站首页代码
+ * 购物车页面
  * @Author niushiyao
  * @Date   2017-06-21
  */
 namespace app\controllers;
 use yii\web\Controller;
-use app\models\Address;
 
-class IndexController extends Controller
+class CartController extends Controller
 {
     /**
-     * 网站首页
+     * 购物车页面
      * @Author niushiyao
      * @Date   2017-06-21
-     */
-    public function actionIndex()
+     */            
+     public function actionIndex()
     {
         $this->layout = 'layout1';
-        return $this->render("index");
+        return $this->render('index');
     }
+     
 }
