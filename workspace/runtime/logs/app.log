@@ -1001,3 +1001,1124 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1497872261.4554
     'REQUEST_TIME' => 1497872261
 ]
+2017-06-20 09:15:03 [172.16.67.0][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 09:15:03 [172.16.67.0][-][-][info][application] $_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '34022'
+    'SERVER_ADDR' => '172.16.98.41'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '10.100.128.1'
+    'HTTP_X_FORWARDED_FOR' => '10.100.128.1'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0'
+    'HTTP_ACCEPT' => '*/*'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497921303.1365
+    'REQUEST_TIME' => 1497921303
+]
+2017-06-20 11:18:58 [172.16.67.0][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 11:18:58 [172.16.67.0][-][-][info][application] $_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '56928'
+    'SERVER_ADDR' => '172.16.98.41'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '218.241.152.202'
+    'HTTP_X_FORWARDED_FOR' => '218.241.152.202'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0'
+    'HTTP_ACCEPT' => '*/*'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497928737.9865
+    'REQUEST_TIME' => 1497928737
+]
+2017-06-20 14:45:52 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 14:45:51 [172.16.67.45][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '40466'
+    'SERVER_ADDR' => '172.16.67.48'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://coding.imooc.com/project/57.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497941151.3964
+    'REQUEST_TIME' => 1497941151
+]
+2017-06-20 14:46:00 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 14:46:00 [172.16.67.45][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '40510'
+    'SERVER_ADDR' => '172.16.67.48'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://coding.imooc.com/project/57.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497941160.4075
+    'REQUEST_TIME' => 1497941160
+]
+2017-06-20 14:46:19 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 14:46:19 [172.16.67.45][-][-][info][application] $_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '40618'
+    'SERVER_ADDR' => '172.16.67.48'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '218.241.152.202'
+    'HTTP_X_FORWARDED_FOR' => '218.241.152.202'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0'
+    'HTTP_ACCEPT' => '*/*'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497941179.4418
+    'REQUEST_TIME' => 1497941179
+]
+2017-06-20 14:50:00 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 14:50:00 [172.16.67.45][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '42164'
+    'SERVER_ADDR' => '172.16.67.48'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://coding.imooc.com/project/57.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497941400.7382
+    'REQUEST_TIME' => 1497941400
+]
+2017-06-20 14:50:32 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 14:50:32 [172.16.67.45][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '42450'
+    'SERVER_ADDR' => '172.16.67.48'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://coding.imooc.com/project/u15gts.html?tree=%2Fweb%2Fassets'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497941432.4233
+    'REQUEST_TIME' => 1497941432
+]
+2017-06-20 14:51:06 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 14:51:06 [172.16.67.45][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '42676'
+    'SERVER_ADDR' => '172.16.67.48'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://coding.imooc.com/project/u15gts.html?tree=%2Fviews%2Findex%2Findex.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497941466.3879
+    'REQUEST_TIME' => 1497941466
+]
+2017-06-20 15:38:41 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 15:38:41 [172.16.67.45][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '35348'
+    'SERVER_ADDR' => '172.16.67.48'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://coding.imooc.com/project/u15gts.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497944321.5345
+    'REQUEST_TIME' => 1497944321
+]
+2017-06-20 16:14:00 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-20 16:13:59 [172.16.67.45][-][-][info][application] $_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '52022'
+    'SERVER_ADDR' => '172.16.67.48'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '10.100.128.1'
+    'HTTP_X_FORWARDED_FOR' => '10.100.128.1'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0'
+    'HTTP_ACCEPT' => '*/*'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1497946439.6196
+    'REQUEST_TIME' => 1497946439
+]
+2017-06-21 10:38:20 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-21 10:38:19 [172.16.67.45][-][-][info][application] $_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '46300'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '218.241.152.202'
+    'HTTP_X_FORWARDED_FOR' => '218.241.152.202'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0'
+    'HTTP_ACCEPT' => '*/*'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498012699.5326
+    'REQUEST_TIME' => 1498012699
+]
+2017-06-21 10:38:20 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-21 10:38:20 [172.16.67.45][-][-][info][application] $_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '46310'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '218.241.152.202'
+    'HTTP_X_FORWARDED_FOR' => '218.241.152.202'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0'
+    'HTTP_ACCEPT' => '*/*'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498012700.7463
+    'REQUEST_TIME' => 1498012700
+]
+2017-06-21 11:03:20 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/SiteController.php:52
+2017-06-21 11:03:20 [172.16.67.45][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '56662'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://coding.imooc.com/project/57.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014200.5731
+    'REQUEST_TIME' => 1498014200
+]
+2017-06-21 11:06:11 [172.16.67.45][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\controllers\ProductController' in file: /data/webroot/controllers/ProductController.php. Namespace missing?' in /data/webroot/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 /data/webroot/vendor/yiisoft/yii2/base/Module.php(562): class_exists('app\\controllers...')
+#3 /data/webroot/vendor/yiisoft/yii2/base/Module.php(520): yii\base\Module->createControllerByID('product')
+#4 /data/webroot/vendor/yiisoft/yii2/base/Module.php(448): yii\base\Module->createController('product/index')
+#5 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('product/index', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /data/webroot/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-06-21 11:06:11 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+2017-06-21 11:06:11 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '58074'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014371.5145
+    'REQUEST_TIME' => 1498014371
+]
+2017-06-21 11:06:42 [172.16.67.45][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\controllers\ProductController' in file: /data/webroot/controllers/ProductController.php. Namespace missing?' in /data/webroot/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 /data/webroot/vendor/yiisoft/yii2/base/Module.php(562): class_exists('app\\controllers...')
+#3 /data/webroot/vendor/yiisoft/yii2/base/Module.php(520): yii\base\Module->createControllerByID('product')
+#4 /data/webroot/vendor/yiisoft/yii2/base/Module.php(448): yii\base\Module->createController('product/index')
+#5 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('product/index', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /data/webroot/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-06-21 11:06:42 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+2017-06-21 11:06:42 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '58348'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014402.4568
+    'REQUEST_TIME' => 1498014402
+]
+2017-06-21 11:07:09 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/ProductController.php:10
+2017-06-21 11:07:09 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '58436'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014429.0845
+    'REQUEST_TIME' => 1498014429
+]
+2017-06-21 11:07:33 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/ProductController.php:10
+2017-06-21 11:07:33 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '58650'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014453.4764
+    'REQUEST_TIME' => 1498014453
+]
+2017-06-21 11:07:35 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/ProductController.php:10
+2017-06-21 11:07:35 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '58672'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014455.4844
+    'REQUEST_TIME' => 1498014455
+]
+2017-06-21 11:07:53 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/ProductController.php:10
+2017-06-21 11:07:53 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '58834'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014473.2327
+    'REQUEST_TIME' => 1498014473
+]
+2017-06-21 11:08:00 [172.16.67.45][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\base\Controller::render(), called in /data/webroot/controllers/ProductController.php on line 10 and defined' in /data/webroot/vendor/yiisoft/yii2/base/Controller.php:376
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(376): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', '/data/webroot/v...', 376, Array)
+#1 /data/webroot/controllers/ProductController.php(10): yii\base\Controller->render()
+#2 [internal function]: app\controllers\ProductController->actionIndex()
+#3 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('product/index', Array)
+#7 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/webroot/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-06-21 11:08:00 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '58884'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014480.5047
+    'REQUEST_TIME' => 1498014480
+]
+2017-06-21 11:08:26 [172.16.67.45][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\controllers\ProductController::renderPartical()' in /data/webroot/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /data/webroot/controllers/ProductController.php(10): yii\base\Component->__call('renderPartical', Array)
+#1 /data/webroot/controllers/ProductController.php(10): app\controllers\ProductController->renderPartical('index')
+#2 [internal function]: app\controllers\ProductController->actionIndex()
+#3 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('product/index', Array)
+#7 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/webroot/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-06-21 11:08:26 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+2017-06-21 11:08:26 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '59216'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014506.9347
+    'REQUEST_TIME' => 1498014506
+]
+2017-06-21 11:08:41 [172.16.67.45][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.45
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/controllers/ProductController.php:10
+2017-06-21 11:08:41 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '59366'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498014521.1591
+    'REQUEST_TIME' => 1498014521
+]
+2017-06-21 11:21:14 [172.16.67.45][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in /data/webroot/controllers/ProductController.php:30
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-21 11:21:14 [172.16.67.45][-][-][info][application] $_GET = [
+    'r' => 'product/detail'
+]
+
+$_COOKIE = [
+    '_csrf' => '06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG\";}'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product/detail'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product/detail'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.45'
+    'REMOTE_PORT' => '36162'
+    'SERVER_ADDR' => '172.16.67.16'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.243'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.243'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=06f89fa3d1892a2f6e0dafd65d9b8c29263582fa9727dc80cf3764d3674bdd26a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ja7GTLZCnnq8TdJ92RwiLj_KsFMe-UwG%22%3B%7D; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498015274.0104
+    'REQUEST_TIME' => 1498015274
+]
