@@ -1,3 +1,6 @@
+<?php 
+use yii\bootstrap\ActiveForm;
+?>
 <!DOCTYPE html>
 <html class="login-bg">
     
