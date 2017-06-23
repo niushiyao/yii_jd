@@ -9,6 +9,6 @@ class PublicController extends Controller
     {
         $this->layout = false;
         $admin_model = new Admin;
-        return $this->render('login',array('model' => $model));
+        return $this->render('login',array('model' => $admin_model));
     }
 }
