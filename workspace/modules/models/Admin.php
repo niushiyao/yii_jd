@@ -13,20 +13,37 @@ class Admin extends ActiveRecord
     }
     
     /**
+     * 创建属性标签
+     * @Author niushiyao
+     * @date   2017-06-25
+     */
+     public function attributeLabels()
+     {
+         return [
+            'adminuser' => '管理员帐号',
+            'adminemail' => '邮箱',
+            'adminpass' => '密码',
+            'repass' => '确认密码',
+         ];
+     }
+    
+    /**
      * 验证规则
      */
     public function rules()
     {
         return [
-            ['adminuser', 'required', 'message' => '管理员帐号不能为空', 'on' => ['login','seekpass','changepass']],
-            ['adminpass', 'required', 'message' => '管理员密码不能为空', 'on' => ['login','changepass']],
+            ['adminuser', 'required', 'message' => '管理员帐号不能为空', 'on' => ['login','seekpass','changepass','adminadd']],
+            ['adminuser', 'unique', 'message' => '用户名已被注册', 'on' => 'adminadd'],
+            ['adminpass', 'required', 'message' => '管理员密码不能为空', 'on' => ['login','changepass','adminadd']],
             ['rememberMe','boolean', 'on' => 'login'],
             ['adminpass', 'validatePass', 'on' => 'login'],
-            ['adminemail', 'required', 'message' => '电子邮箱不能为空', 'on' => 'seekpass'],
-            ['adminemail', 'email', 'message' => '邮箱格式不正确', 'on' => 'seekpass'],
-            ['adminemail', 'validateEmail','on' => 'seekpass'],
-            ['repass','required','message' => '确认密码不能为空','on'=>'changepass'],
-            ['repass','compare','compareAttribute' => 'adminpass','message' => '两次密码输入不一致','on' => 'changepass'],
+            ['adminemail', 'required', 'message' => '电子邮箱不能为空', 'on' => ['seekpass','adminadd']],
+            ['adminemail', 'email', 'message' => '邮箱格式不正确', 'on' => ['seekpass','adminadd']],
+            ['adminemail', 'unique', 'message' => '电子邮箱已被注册','on' => ['adminadd']],
+            ['adminemail', 'validateEmail','on' => ['seekpass']],
+            ['repass','required','message' => '确认密码不能为空','on'=>['changepass','adminadd']],
+            ['repass','compare','compareAttribute' => 'adminpass','message' => '两次密码输入不一致','on' => ['changepass','adminadd']],
         ];
     }
     
@@ -129,5 +146,20 @@ class Admin extends ActiveRecord
            }
            return false;
        }
+       
+       /**
+        * 添加管理员
+        */
+        public function reg($data)
+        {
+            $this->scenario = 'adminadd';
+            if($this->load($data) && $this->validate())
+            {
+                $this->adminpass = md5($this->adminpass);
+                //里面是false，这样就不会再进行验证
+                if($this->save(false)) return true;
+            }
+            return false;
+        }
     
 }

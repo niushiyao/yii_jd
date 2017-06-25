@@ -51,7 +51,50 @@ class ManageController extends Controller
          $count = $admin_model->count();
          $pageSize = Yii::$app->params['pageSize']['manage'];
          $pager = new Pagination(['totalCount' => $count, 'pageSize' => $pageSize]);
-         $managers = $admin_model->offset($pager->offset)->limit($pager->limit)->all();
+         $managers = $admin_model->offset($pager->offset)->limit($pager->limit)->orderBy('adminid desc')->all();
          return $this->render('managers',['managers' => $managers,'pager' => $pager]);
-      }
+     }
+      
+    /**
+     * 添加管理员
+     * @author niushiyao
+     * @date   2017-06-25
+     */
+     public function actionReg()
+     {
+        $this->layout = 'layout1';
+        $admin_model = new Admin;
+        if(Yii::$app->request->isPost)
+        {
+            $post = Yii::$app->request->post();
+            if($admin_model->reg($post))
+            {
+                Yii::$app->session->setFlash('info','添加成功');
+            }else{
+                Yii::$app->session->setFlash('info','添加失败');
+            }
+        }
+        $admin_model->adminpass = '';
+        $admin_model->repass = '';
+        return $this->render('reg',['model' => $admin_model]);
+     }
+    
+    /**
+     * 删除用户
+     */
+     public function actionDel()
+     {
+         $adminid = (int)Yii::$app->request->get("adminid");
+         if(empty($adminid))
+         {
+             $this->redirect(['manage/managers']);
+         }
+         $admin_model = new Admin;
+         if($admin_model->deleteAll('adminid = :id',[':id' => $adminid]))
+         {
+             Yii::$app->session->setFlash('info','删除成功');
+             $this->redirect(['manage/managers']);
+         }
+         
+     }
 }
