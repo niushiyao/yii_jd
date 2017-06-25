@@ -146,7 +146,7 @@
                     </a>
                 </li>
                 <li class="settings hidden-phone">
-                <a href="/index.php?r=admin%2Fpublic%2Flogout" role="button">
+                <a href="<?php echo yii\helpers\Url::to(['public/logout'])?>" role="button">
                         <i class="icon-share-alt"></i>
                     </a>
                 </li>
