@@ -39,4 +39,22 @@ class PublicController extends Controller
         $this->goback();
     }
     
+    /**
+     * 找回密码功能
+     */
+     public function actionSeekpassword()
+     {
+         $this->layout = false;
+         $admin_model = new Admin;
+         if(Yii::$app->request->isPost)
+         {
+             $userInfo = Yii::$app->request->post();
+             if($admin_model->seekPass($userInfo))
+             {
+                 Yii::$app->session->setFlash('info','电离邮件已经发送成功，请查收');
+             }
+         }
+         return $this->render('seekpassword',['model' => $admin_model]);
+     }
+    
 }

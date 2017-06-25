@@ -6547,3 +6547,772 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1498362598.7007
     'REQUEST_TIME' => 1498362598
 ]
+2017-06-25 12:37:15 [172.16.67.0][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: form' in /data/webroot/modules/views/public/seekpassword.php:37
+Stack trace:
+#0 /data/webroot/modules/views/public/seekpassword.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/webroot/m...', 37, Array)
+#1 /data/webroot/vendor/yiisoft/yii2/base/View.php(325): require('/data/webroot/m...')
+#2 /data/webroot/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/webroot/m...', Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/webroot/m...', Array, Object(app\modules\controllers\PublicController))
+#4 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('seekpassword', Array, Object(app\modules\controllers\PublicController))
+#5 /data/webroot/modules/controllers/PublicController.php(49): yii\base\Controller->render('seekpassword', Array)
+#6 [internal function]: app\modules\controllers\PublicController->actionSeekpassword()
+#7 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('seekpassword', Array)
+#10 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/se...', Array)
+#11 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/webroot/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-06-25 12:37:15 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/public/seekpassword'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Fseekpassword'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Fseekpassword'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '44764'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498365435.9
+    'REQUEST_TIME' => 1498365435
+]
+2017-06-25 13:11:15 [172.16.67.0][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Application::request()' in /data/webroot/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /data/webroot/modules/controllers/PublicController.php(49): yii\base\Component->__call('request', Array)
+#1 /data/webroot/modules/controllers/PublicController.php(49): yii\web\Application->request()
+#2 [internal function]: app\modules\controllers\PublicController->actionSeekpassword()
+#3 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('seekpassword', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/se...', Array)
+#7 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/webroot/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-06-25 13:11:15 [172.16.67.0][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+2017-06-25 13:11:15 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/public/seekpassword'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Fseekpassword'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Fseekpassword'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '55534'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fpublic%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498367475.0618
+    'REQUEST_TIME' => 1498367475
+]
+2017-06-25 13:12:02 [172.16.67.0][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in /data/webroot/modules/controllers/PublicController.php:52
+Stack trace:
+#0 /data/webroot/modules/controllers/PublicController.php(52): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/webroot/m...', 52, Array)
+#1 [internal function]: app\modules\controllers\PublicController->actionSeekpassword()
+#2 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('seekpassword', Array)
+#5 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/se...', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /data/webroot/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-06-25 13:12:02 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/public/seekpassword'
+]
+
+$_POST = [
+    '_csrf' => 'VUhFcHJhbUEKOQk7PyVfGBoJNTgmJBV2NAAKOhcDW3IgJAQGCA8kKA=='
+    'Admin' => [
+        'adminuser' => ''
+        'adminemail' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Fseekpassword'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '111'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Fseekpassword'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '55696'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '111'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fpublic%2Fseekpassword'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498367522.1401
+    'REQUEST_TIME' => 1498367522
+]
+2017-06-25 13:38:02 [172.16.67.0][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\swiftmailer\Message::to()' in /data/webroot/vendor/yiisoft/yii2/base/Object.php:220
+Stack trace:
+#0 /data/webroot/modules/models/Admin.php(97): yii\base\Object->__call('to', Array)
+#1 /data/webroot/modules/models/Admin.php(97): yii\swiftmailer\Message->to('niushiyao@ucse....')
+#2 /data/webroot/modules/controllers/PublicController.php(53): app\modules\models\Admin->seekPass(Array)
+#3 [internal function]: app\modules\controllers\PublicController->actionSeekpassword()
+#4 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('seekpassword', Array)
+#7 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/se...', Array)
+#8 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /data/webroot/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-06-25 13:38:02 [172.16.67.0][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+2017-06-25 13:38:01 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/public/seekpassword'
+]
+
+$_POST = [
+    '_csrf' => 'S0RqQzJjdDkUNSYIfydGYAQFGgtmJgwOKgwlCVcBQgo.KCs1SA09UA=='
+    'Admin' => [
+        'adminuser' => 'admin'
+        'adminemail' => 'niushiyao@ucse.net'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Fseekpassword'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '136'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Fseekpassword'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '33390'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '136'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fpublic%2Fseekpassword'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498369081.9145
+    'REQUEST_TIME' => 1498369081
+]
+2017-06-25 14:12:37 [172.16.67.0][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: tmie' in /data/webroot/modules/models/Admin.php:114
+Stack trace:
+#0 /data/webroot/modules/models/Admin.php(114): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/webroot/m...', 114, Array)
+#1 /data/webroot/modules/models/Admin.php(96): app\modules\models\Admin->createToken('admin', 1498371157)
+#2 /data/webroot/modules/controllers/PublicController.php(52): app\modules\models\Admin->seekPass(Array)
+#3 [internal function]: app\modules\controllers\PublicController->actionSeekpassword()
+#4 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('seekpassword', Array)
+#7 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/public/se...', Array)
+#8 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /data/webroot/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2017-06-25 14:12:37 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/public/seekpassword'
+]
+
+$_POST = [
+    '_csrf' => 'SlZrNlQ0WFoVJyd9GXBqAwUXG34AcSBtKx4kfDFWbmk/OipALloRMw=='
+    'Admin' => [
+        'adminuser' => 'admin'
+        'adminemail' => 'niushiyao@ucse.net'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fpublic%2Fseekpassword'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '138'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fpublic%2Fseekpassword'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '43868'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '138'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fpublic%2Fseekpassword'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498371157.3079
+    'REQUEST_TIME' => 1498371157
+]
+2017-06-25 16:24:07 [172.16.67.0][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\models\Admin::repass' in /data/webroot/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/db/BaseActiveRecord.php(252): yii\base\Component->__get('repass')
+#1 /data/webroot/vendor/yiisoft/yii2/helpers/BaseHtml.php(2068): yii\db\BaseActiveRecord->__get('repass')
+#2 /data/webroot/vendor/yiisoft/yii2/helpers/BaseHtml.php(1243): yii\helpers\BaseHtml::getAttributeValue(Object(app\modules\models\Admin), 'repass')
+#3 /data/webroot/vendor/yiisoft/yii2/helpers/BaseHtml.php(1333): yii\helpers\BaseHtml::activeInput('password', Object(app\modules\models\Admin), 'repass', Array)
+#4 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(407): yii\helpers\BaseHtml::activePasswordInput(Object(app\modules\models\Admin), 'repass', Array)
+#5 /data/webroot/modules/views/manage/mailchangepass.php(49): yii\widgets\ActiveField->passwordInput(Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/View.php(325): require('/data/webroot/m...')
+#7 /data/webroot/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/webroot/m...', Array)
+#8 /data/webroot/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/webroot/m...', Array, Object(app\modules\controllers\ManageController))
+#9 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('mailchangepass', Array, Object(app\modules\controllers\ManageController))
+#10 /data/webroot/modules/controllers/ManageController.php(28): yii\base\Controller->render('mailchangepass', Array)
+#11 [internal function]: app\modules\controllers\ManageController->actionMailchangepass()
+#12 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('mailchangepass', Array)
+#15 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ma...', Array)
+#16 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /data/webroot/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2017-06-25 16:24:07 [172.16.67.0][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+2017-06-25 16:24:07 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/mailchangepass'
+    'timestamp' => '1498371192'
+    'adminuser' => 'admin'
+    'token' => 'dcbe396fc5241831e7c01d4cc99adf38'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '59512'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498379047.0533
+    'REQUEST_TIME' => 1498379047
+]
+2017-06-25 16:25:11 [172.16.67.0][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+    in /data/webroot/modules/controllers/ManageController.php:28
+2017-06-25 16:25:11 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/mailchangepass'
+    'timestamp' => '1498371192'
+    'adminuser' => 'admin'
+    'token' => 'dcbe396fc5241831e7c01d4cc99adf38'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '59770'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498379111.208
+    'REQUEST_TIME' => 1498379111
+]
+2017-06-25 16:36:15 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/manage/mailchangepass×tamp=1498371192' in /data/webroot/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('mailchangepass\xC3...', Array)
+#1 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ma...', Array)
+#2 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /data/webroot/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /data/webroot/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/webroot/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-25 16:36:16 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+2017-06-25 16:36:15 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][info][application] $_GET = [
+    'r' => 'admin/manage/mailchangepass×tamp=1498371192'
+    'adminuser' => 'admin'
+    'token' => 'dcbe396fc5241831e7c01d4cc99adf38'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fmailchangepass%C3%97tamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fmailchangepass%C3%97tamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '35806'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498379775.6695
+    'REQUEST_TIME' => 1498379775
+]
+2017-06-25 16:36:36 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/manage/mailchangepass×tamp=1498371192' in /data/webroot/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('mailchangepass\xC3...', Array)
+#1 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ma...', Array)
+#2 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /data/webroot/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /data/webroot/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/webroot/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-25 16:36:36 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+2017-06-25 16:36:36 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][info][application] $_GET = [
+    'r' => 'admin/manage/mailchangepass×tamp=1498371192'
+    'adminuser' => 'admin'
+    'token' => 'dcbe396fc5241831e7c01d4cc99adf38'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fmailchangepass%C3%97tamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fmailchangepass%C3%97tamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '35906'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498379796.0118
+    'REQUEST_TIME' => 1498379796
+]
+2017-06-25 16:47:42 [172.16.67.0][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Access to undeclared static property: Yii::$App' in /data/webroot/modules/controllers/ManageController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-25 16:47:42 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/mailchangepass'
+    'timestamp' => '1498371192'
+    'adminuser' => 'admin'
+    'token' => 'dcbe396fc5241831e7c01d4cc99adf38'
+]
+
+$_POST = [
+    '_csrf' => 'd2tobDF6SkooGiQnfD54EzgqGCRlPzJ9FiMnJlQYfHkCBykaSxQDIw=='
+    'Admin' => [
+        'adminuser' => 'admin'
+        'adminpass' => 'admin123'
+        'repass' => 'admin123'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '150'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '40186'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '150'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498380462.7028
+    'REQUEST_TIME' => 1498380462
+]
+2017-06-25 16:57:10 [172.16.67.0][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'The use statement with non-compound name 'Yii' has no effect' in /data/webroot/modules/views/manage/mailchangepass.php:4
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/View.php(325): yii\base\ErrorHandler->handleError(2, 'The use stateme...', '/data/webroot/m...', 4, Array)
+#1 /data/webroot/vendor/yiisoft/yii2/base/View.php(325): yii\base\View::renderPhpFile()
+#2 /data/webroot/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/webroot/m...', Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/webroot/m...', Array, Object(app\modules\controllers\ManageController))
+#4 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('mailchangepass', Array, Object(app\modules\controllers\ManageController))
+#5 /data/webroot/modules/controllers/ManageController.php(38): yii\base\Controller->render('mailchangepass', Array)
+#6 [internal function]: app\modules\controllers\ManageController->actionMailchangepass()
+#7 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('mailchangepass', Array)
+#10 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/manage/ma...', Array)
+#11 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/webroot/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-06-25 16:57:10 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/manage/mailchangepass'
+    'timestamp' => '1498371192'
+    'adminuser' => 'admin'
+    'token' => 'dcbe396fc5241831e7c01d4cc99adf38'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fmanage%2Fmailchangepass&timestamp=1498371192&adminuser=admin&token=dcbe396fc5241831e7c01d4cc99adf38'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '43248'
+    'SERVER_ADDR' => '172.16.98.10'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498381030.6719
+    'REQUEST_TIME' => 1498381030
+]
