@@ -20,11 +20,11 @@ class ManageController extends Controller
             $this->redirect(['public/login']);
             Yii::$app->end();
         }
-        /*if(time() - $time > 1800)
+        if(time() - $time > 1800)
         {
             $this->redirect(['public/login']);
             Yii::$app->end();
-        }*/
+        }
         
         if(Yii::$app->request->isPost)
         {

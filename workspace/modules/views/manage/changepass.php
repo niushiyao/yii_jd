@@ -36,6 +36,7 @@
                                         <?php echo Html::submitButton('修改',['class' => 'btn-glow primary']);?>
                                         <span>或者</span>
                                         <?php echo Html::resetButton('取消',['class' => 'reset']);?>
+                                    </div>
                                 <?php ActiveForm::end();?>
                             </div>
                         </div>

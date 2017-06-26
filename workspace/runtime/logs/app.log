@@ -12090,3 +12090,729 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1498448514.4943
     'REQUEST_TIME' => 1498448514
 ]
+2017-06-26 18:29:31 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/user/users".' in /data/webroot/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#1 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /data/webroot/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /data/webroot/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/webroot/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-06-26 18:29:32 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+2017-06-26 18:29:31 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '55126'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498472971.9062
+    'REQUEST_TIME' => 1498472971
+]
+2017-06-26 19:50:54 [172.16.67.0][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\Controlle' not found' in /data/webroot/modules/controllers/UserController.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-26 19:50:54 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '51014'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498477854.6189
+    'REQUEST_TIME' => 1498477854
+]
+2017-06-26 19:56:48 [172.16.67.0][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\controllers\Controlle' not found' in /data/webroot/modules/controllers/UserController.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-26 19:56:48 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '51958'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478208.5597
+    'REQUEST_TIME' => 1498478208
+]
+2017-06-26 19:58:08 [172.16.67.0][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\User' not found' in /data/webroot/modules/controllers/UserController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-26 19:58:07 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '52174'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478287.9807
+    'REQUEST_TIME' => 1498478287
+]
+2017-06-26 19:58:51 [172.16.67.0][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: uer' in /data/webroot/modules/controllers/UserController.php:19
+Stack trace:
+#0 /data/webroot/modules/controllers/UserController.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/data/webroot/m...', 19, Array)
+#1 [internal function]: app\modules\controllers\UserController->actionUsers()
+#2 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('users', Array)
+#5 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /data/webroot/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-06-26 19:58:50 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '52286'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478330.977
+    'REQUEST_TIME' => 1498478330
+]
+2017-06-26 19:59:09 [172.16.67.0][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: user' in /data/webroot/modules/controllers/UserController.php:19
+Stack trace:
+#0 /data/webroot/modules/controllers/UserController.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/data/webroot/m...', 19, Array)
+#1 [internal function]: app\modules\controllers\UserController->actionUsers()
+#2 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('users', Array)
+#5 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /data/webroot/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-06-26 19:59:09 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '52334'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478349.1573
+    'REQUEST_TIME' => 1498478349
+]
+2017-06-26 20:00:26 [172.16.67.0][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: user' in /data/webroot/modules/controllers/UserController.php:19
+Stack trace:
+#0 /data/webroot/modules/controllers/UserController.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/data/webroot/m...', 19, Array)
+#1 [internal function]: app\modules\controllers\UserController->actionUsers()
+#2 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('users', Array)
+#5 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/user...', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /data/webroot/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-06-26 20:00:26 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/user/users'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Fusers'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Fusers'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '52788'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fmanage%2Fchangepass'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478426.3616
+    'REQUEST_TIME' => 1498478426
+]
+2017-06-26 20:02:07 [172.16.67.0][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: app\modules\models\User::repass' in /data/webroot/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/db/BaseActiveRecord.php(272): yii\base\Component->__set('repass', '')
+#1 /data/webroot/modules/controllers/UserController.php(41): yii\db\BaseActiveRecord->__set('repass', '')
+#2 [internal function]: app\modules\controllers\UserController->actionReg()
+#3 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('reg', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/user/reg', Array)
+#7 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/webroot/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2017-06-26 20:02:07 [172.16.67.0][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+2017-06-26 20:02:07 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'admin/user/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Freg'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Freg'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '54076'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fuser%2Fusers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478527.282
+    'REQUEST_TIME' => 1498478527
+]
+2017-06-26 20:02:31 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\bootstarp\ActiveForm' not found' in /data/webroot/modules/views/user/reg.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-26 20:02:31 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][info][application] $_GET = [
+    'r' => 'admin/user/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Freg'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Freg'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '54534'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fuser%2Fusers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478551.8437
+    'REQUEST_TIME' => 1498478551
+]
+2017-06-26 20:02:51 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant on - assumed 'on'' in /data/webroot/modules/models/User.php:20
+Stack trace:
+#0 /data/webroot/modules/models/User.php(20): yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /data/webroot/vendor/yiisoft/yii2/base/Model.php(441): app\modules\models\User->rules()
+#2 /data/webroot/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#3 /data/webroot/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#4 /data/webroot/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#5 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#6 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#7 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#8 /data/webroot/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render('<span class="ke...')
+#9 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#10 /data/webroot/modules/views/user/reg.php(31): yii\widgets\ActiveField->__toString()
+#11 /data/webroot/vendor/yiisoft/yii2/base/View.php(325): require('/data/webroot/m...')
+#12 /data/webroot/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#13 /data/webroot/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\UserController))
+#14 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\UserController))
+#15 /data/webroot/modules/controllers/UserController.php(42): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#16 [internal function]: app\modules\controllers\UserController->actionReg()
+#17 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#18 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#19 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#20 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#21 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /data/webroot/web/index.php(12): yii\base\Application->run()
+#23 {main}
+    in /data/webroot/modules/models/User.php:20
+    in /data/webroot/modules/views/user/reg.php:31
+    in /data/webroot/modules/controllers/UserController.php:42
+2017-06-26 20:02:51 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][info][application] $_GET = [
+    'r' => 'admin/user/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Freg'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Freg'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '54884'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fuser%2Fusers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478571.5969
+    'REQUEST_TIME' => 1498478571
+]
+2017-06-26 20:03:37 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant on - assumed 'on'' in /data/webroot/modules/models/User.php:20
+Stack trace:
+#0 /data/webroot/modules/models/User.php(20): yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /data/webroot/vendor/yiisoft/yii2/base/Model.php(441): app\modules\models\User->rules()
+#2 /data/webroot/vendor/yiisoft/yii2/base/Model.php(409): yii\base\Model->createValidators()
+#3 /data/webroot/vendor/yiisoft/yii2/base/Model.php(185): yii\base\Model->getValidators()
+#4 /data/webroot/vendor/yiisoft/yii2/base/Model.php(772): yii\base\Model->scenarios()
+#5 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(700): yii\base\Model->activeAttributes()
+#6 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(216): yii\widgets\ActiveField->getClientOptions()
+#7 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(206): yii\widgets\ActiveField->begin()
+#8 /data/webroot/vendor/yiisoft/yii2-bootstrap/ActiveField.php(187): yii\widgets\ActiveField->render('<span class="ke...')
+#9 /data/webroot/vendor/yiisoft/yii2/widgets/ActiveField.php(162): yii\bootstrap\ActiveField->render()
+#10 /data/webroot/modules/views/user/reg.php(31): yii\widgets\ActiveField->__toString()
+#11 /data/webroot/vendor/yiisoft/yii2/base/View.php(325): require('/data/webroot/m...')
+#12 /data/webroot/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#13 /data/webroot/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\modules\controllers\UserController))
+#14 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\modules\controllers\UserController))
+#15 /data/webroot/modules/controllers/UserController.php(42): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#16 [internal function]: app\modules\controllers\UserController->actionReg()
+#17 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#18 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#19 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#20 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#21 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /data/webroot/web/index.php(12): yii\base\Application->run()
+#23 {main}
+    in /data/webroot/modules/models/User.php:20
+    in /data/webroot/modules/views/user/reg.php:31
+    in /data/webroot/modules/controllers/UserController.php:42
+2017-06-26 20:03:37 [172.16.67.0][-][qo2m7m8sevsapb3cvs5g0eepi4][info][application] $_GET = [
+    'r' => 'admin/user/reg'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'qo2m7m8sevsapb3cvs5g0eepi4'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin' => [
+        'adminuser' => 'admin'
+        'isLogin' => 1
+    ]
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=admin%2Fuser%2Freg'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=admin%2Fuser%2Freg'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '55450'
+    'SERVER_ADDR' => '172.16.46.49'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.253'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.253'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=admin%2Fuser%2Fusers'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=qo2m7m8sevsapb3cvs5g0eepi4; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1498478617.1449
+    'REQUEST_TIME' => 1498478617
+]
