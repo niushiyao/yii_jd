@@ -1,7 +1,6 @@
 <?php
 namespace app\modules\models;
 use yii\db\ActiveRecord;
-use Yii;
 
 class Profile extends ActiveRecord
 {

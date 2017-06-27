@@ -32,24 +32,32 @@
                             </thead>
                             <tbody>
                                 <!-- row -->
+                                <?php foreach($users as $user):?>
                                 <tr class="first">
                                     <td>
-                                        <img src="assets/admin/img/contact-img.png" class="img-circle avatar hidden-phone" />
-                                        <a href="#" class="name">zhangsan</a>
-                                        <span class="subtext"></span>
+                                        <?php if(empty($user->profile->avatar)):?>
+                                        <img src="<?php echo Yii::$app->params['defaultValue']['avatar']?>" class="img-circle avatar hidden-phone" />
+                                        <?php else:?>
+                                        <img src="assets/uploads/avatar/<?php echo $user->profile->avatar;?>">
+                                        <?php endif;?>
+                                        <a href="#" class="name"><?php echo $user['username']?></a>
+                                        <span class="subtext"><?php echo $user['useremail'];?></span>
                                     </td>
-                                    <td>未填写</td>
-                                    <td>未填写</td>
-                                    <td>未填写</td>
-                                    <td>未填写</td>
-                                    <td>未填写</td>
+                                    <td><?php echo empty($user->profile->truename) ? '未填写' : $user->profile->truename;?></td>
+                                    <td><?php echo empty($user->profile->nickname) ? '未填写' : $user->profile->nickname;?></td>
+                                    <td><?php echo empty($user->profile->sex) ? '未填写' : $user->profile->sex;?></td>
+                                    <td><?php echo empty($user->profile->age) ? '未填写' : $user->profile->age;?></td>
+                                    <td><?php echo empty($user->profile->birthday) ? '未填写' : $user->profile->birthday;?></td>
                                     <td class="align-right">
-                                        <a href="/index.php?r=admin%2Fuser%2Fdel&userid=1">删除</a></td>
+                                         <a href="<?php echo yii\helpers\Url::to(['user/del','userid' => $user->userid]);?>">删除</a></td>
                                 </tr>
+                                <?php endforeach;?>
                             </tbody>
                         </table>
                     </div>
-                    <div class="pagination pull-right"></div>
+                    <div class="pagination pull-right">
+                        <?php echo yii\widgets\LinkPager::widget(['pagination' => $pager, 'prevPageLabel' => '&#8249;', 'nextPageLabel' => '&#8250;']);?>
+                    </div>
                     <!-- end users table --></div>
             </div>
         </div>

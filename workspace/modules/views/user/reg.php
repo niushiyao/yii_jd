@@ -28,10 +28,10 @@ use yii\helpers\Html;
                                         ]
                                     ]);
                                 ?>
-                                <?php echo $form->field($model,'username')->textInput(['class' => 'span9']);?>
-                                <?php echo $form->field($model,'useremail')->textInput(['class' => 'span9']);?>
-                                <?php echo $form->field($model,'userpass')->passwordInput(['class' => 'span9']);?>
-                                <?php echo $form->field($model,'repass')->passwordInput(['class' => 'span9']);?>
+                                <?php echo $form->field($model,'username')->textInput(['class' => 'span9','placeholder' => '用户名']);?>
+                                <?php echo $form->field($model,'useremail')->textInput(['class' => 'span9','placeholder' => '邮箱']);?>
+                                <?php echo $form->field($model,'userpass')->passwordInput(['class' => 'span9','placeholder' => '密码']);?>
+                                <?php echo $form->field($model,'repass')->passwordInput(['class' => 'span9','placeholder'=>'确认密码']);?>
                                 
                                     <div class="span11 field-box actions">
                                         <?php echo Html::submitButton('添加',['class' => 'btn-glow primary']);?>

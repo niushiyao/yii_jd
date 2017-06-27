@@ -12,6 +12,19 @@ class User extends ActiveRecord
     }
     
     /**
+     * 创建属性标签
+     */
+     public function attributeLabels()
+     {
+        return [
+            'username' => '用户名',
+            'userpass' => '密码',
+            'repass' => '确认密码',
+            'useremail' => '邮箱',
+        ];
+     }
+    
+    /**
      * 规则
      */
      public function rules()
@@ -23,7 +36,7 @@ class User extends ActiveRecord
             ['useremail','email','message' => '邮箱格式不正确','on'=>['reg']],
             ['useremail','unique','message' => '此邮箱已被注册','on'=>['reg']],
             ['repass','required','message' => '确认密码不能为空','on'=>['reg']],
-            
+            ['repass','compare','compareAttribute' => 'userpass','message' => '两次密码输入不一致','on' => 'reg'],
         ];
      }
     
