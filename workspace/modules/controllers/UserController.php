@@ -47,6 +47,37 @@ class UserController extends Controller
       */
       public function actionDel()
       {
-          
+          try{
+              $userid = (int)Yii::$app->request->get('userid');
+              if(empty($userid))
+              {
+                  throw new Exception();
+              }
+              
+              $trans = Yii::$app->db->beginTransaction();
+              if($obj = Profile::find()->where("userid = :userid",['userid' => $userid])->one())
+              {
+                  $res = Profile::deleteAll("userid = :userid",[':userid' => $userid]);
+                  if(empty($res))
+                  {
+                      throw new Exception();
+                  }
+              }
+              
+              if(!User::deleteAll('userid = :userid',[':userid' => $userid]))
+              {
+                  throw new \Exception();
+              }
+              $trans->commit();
+              
+          }
+          catch(\Exception $e)
+          {
+              if(Yii::$app->db->getTransaction())
+              {
+                  $trans->rollback();
+              }
+          }
+          $this->redirect(['user/users']);
       }
 }
