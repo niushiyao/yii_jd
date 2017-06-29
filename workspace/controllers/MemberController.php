@@ -40,7 +40,7 @@
             Yii::$app->session->remove('isLogin');
             if(!isset(Yii::$app->session['isLogin']))
             {
-                return $this-goBack(Yii::$app->request->referrer);
+                return $this->goBack(Yii::$app->request->referrer);
             }
        }
        

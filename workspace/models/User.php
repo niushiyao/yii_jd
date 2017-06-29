@@ -32,17 +32,17 @@ class User extends ActiveRecord
     {
         return [
             ['loginname', 'required', 'message' => '登录用户名不能为空', 'on' => ['login']],
-            ['openid', 'required', 'message' => 'openid不能为空', 'on' => ['regbymail', 'qqreg']],
-            ['username', 'required', 'message' => '用户名不能为空', 'on' => ['regbymail', 'qqreg']],
-            ['openid', 'unique', 'message' => 'openid已经被注册', 'on' => ['regbymail','qqreg']],
-            ['username','unique','message' => '用户名已经被注册', 'on' => ['regbymail','qqreg']],
-            ['useremail','required','message' => '电子邮件不能为空','on' => ['regbymail']],
-            ['useremail','email','message' => '电子邮件格式不正确', 'on' => ['regbymail']],
-            ['useremail','unique','message' => '电子邮件已被注册', 'on' => ['regbymail']],
-            ['userpass','required','message' => '用户密码不能为空', 'on' => ['login','regbymail','qqreg']],
-            ['repass','required','message' => '确认密码不能为空', 'on' => ['qqreg']],
-            ['repass','compare','compareAttribute' => 'userpass','message' => '两次密码输入不一致', 'on' => ['qqreg']],
-            ['userpass','validatePass','on' => ['login']],
+            ['openid', 'required', 'message' => 'openid不能为空', 'on' => ['reg', 'qqreg']],
+            ['username', 'required', 'message' => '用户名不能为空', 'on' => ['reg', 'regbymail', 'qqreg']],
+            ['openid', 'unique', 'message' => 'openid已经被注册', 'on' => ['reg', 'regbymail', 'qqreg']],
+            ['username', 'unique', 'message' => '用户已经被注册', 'on' => ['reg', 'regbymail', 'qqreg']],
+            ['useremail', 'required', 'message' => '电子邮件不能为空', 'on' => ['reg', 'regbymail']],
+            ['useremail', 'email', 'message' => '电子邮件格式不正确', 'on' => ['reg', 'regbymail']],
+            ['useremail', 'unique', 'message' => '电子邮件已被注册', 'on' => ['reg', 'regbymail']],
+            ['userpass', 'required', 'message' => '用户密码不能为空', 'on' => ['reg', 'login', 'regbymail', 'qqreg']],
+            ['repass', 'required', 'message' => '确认密码不能为空', 'on' => ['reg', 'qqreg']],
+            ['repass', 'compare', 'compareAttribute' => 'userpass', 'message' => '两次密码输入不一致', 'on' => ['reg', 'qqreg']],
+            ['userpass', 'validatePass', 'on' => ['login']],
         ];
     }
     
@@ -110,6 +110,10 @@ class User extends ActiveRecord
         $this->scenario = 'regbymail';
         $data['User']['username'] = 'imooc_'.uniqid();
         $data['User']['userpass'] = uniqid();
+        $this->username = $data['User']['username'];
+        $this->useremail = $data['User']['useremail'];
+        $this->userpass = $data['User']['userpass'];
+
         if($this->load($data) && $this->validate())
         {
             $mailer = Yii::$app->mailer->compose('createuser', ['userpass' => $data['User']['userpass'], 'username' => $data['User']['username']]);
