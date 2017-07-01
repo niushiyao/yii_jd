@@ -116,6 +116,31 @@ class Category extends ActiveRecord
         }
         return $options;
     }
-     
+    
+    /**
+     * 获得树列表
+     */
+     public function getTreeList()
+     {
+         $data = $this->getData();
+         $tree = $this->getTree($data);
+         return $tree = $this->setPrefix($tree);
+     }
+    
+    /**
+     * 获得菜单
+     */
+     public function getMenu()
+     {
+         $top = self::find()->where('parentid = :pid',[':pid' => 0])->asArray->all();
+         $data = [];
+         foreach((array)$top as $k => $cate)
+         {
+            $cate['children'] = self::find()->where('parentid = :pid', [":pid" => $cate['cateid']])->asArray->all();             
+            $data[$k] = $cate;
+         }
+         return $data;
+     }
 
+    
 }
