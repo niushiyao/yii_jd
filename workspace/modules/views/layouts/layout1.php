@@ -209,8 +209,8 @@
                     <i class="icon-chevron-down"></i>
                 </a>
                 <ul class="submenu">
-                <li><a href="/index.php?r=admin%2Fproduct%2Flist">商品列表</a></li>
-                <li><a href="/index.php?r=admin%2Fproduct%2Fadd">添加商品</a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['product/list']);?>">商品列表</a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['product/add']);?>">添加商品</a></li>
                 </ul>
             </li>
             <li>
