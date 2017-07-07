@@ -66,7 +66,7 @@ class ProductController extends Controller
          {
              return false;
          }
-         $qiniu = new Qiniu(Product::AK, Product::SK, Product::DOMAIN, Porduct::BUCKET);
+         $qiniu = new Qiniu(Product::AK, Product::SK, Product::DOMAIN, Product::BUCKET);
          $key = uniqid();
          $qiniu->uploadFile($_FILES['Product']['tmp_name']['cover'],$key);
          $cover = $qiniu->getLink($key);
