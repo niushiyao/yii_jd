@@ -30,7 +30,6 @@ class CommonController extends Controller
                     $data['products'][$k]['productid'] = $pro['productid'];
                     $data['products'][$k]['cartid'] = $pro['cartid'];
                     $total += $data['products'][$k]['price'] * $data['products'][$k]['productnum'];
-                    
                 }
             }
         }
