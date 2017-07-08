@@ -7,8 +7,9 @@
  use yii\web\Controller;
  use app\models\User;
  use Yii;
+ use app\controllers\CommonController;
  
- class MemberController extends Controller
+ class MemberController extends CommonController
  {
      /**
       * 用户注册登录页面

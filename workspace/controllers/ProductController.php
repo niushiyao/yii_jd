@@ -6,8 +6,9 @@
 */
 namespace app\controllers;
 use yii\web\Controller;
+use app\controllers\CommonController;
 
-class ProductController extends Controller
+class ProductController extends CommonController
 {
     //public $layout = false;
     /**

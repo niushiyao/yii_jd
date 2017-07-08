@@ -6,8 +6,9 @@
  */
 namespace app\controllers;
 use yii\web\Controller;
+use app\controllers\CommonController;
 
-class CartController extends Controller
+class CartController extends CommonController
 {
     /**
      * 购物车页面

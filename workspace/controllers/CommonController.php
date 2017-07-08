@@ -10,7 +10,7 @@ class CommonController extends Controller
 {
     public function init()
     {
-        $menu = Category::getMenu;
+        $menu = Category::getMenu();
         $this->view->params['menu'] = $menu;
         $data['products'] = [];
         $total = 0;

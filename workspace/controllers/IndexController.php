@@ -7,9 +7,9 @@
 namespace app\controllers;
 use yii\web\Controller;
 use app\models\Address;
-use app\controllers\Commoncontroller;
+use app\controllers\CommonController;
 
-class IndexController extends Controller
+class IndexController extends CommonController
 {
     /**
      * 网站首页

@@ -5,8 +5,9 @@
  */
  namespace app\controllers;
  use yii\web\Controller;
+ use app\controllers\CommonController;
  
- class OrderController extends Controller
+ class OrderController extends CommonController
  {
      /**
       * 订单中心页面

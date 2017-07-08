@@ -130,13 +130,13 @@ class Category extends ActiveRecord
     /**
      * 获得菜单
      */
-     public function getMenu()
+     public static function getMenu()
      {
-         $top = self::find()->where('parentid = :pid',[':pid' => 0])->asArray->all();
+         $top = self::find()->where('parentid = :pid',[':pid' => 0])->asArray()->all();
          $data = [];
          foreach((array)$top as $k => $cate)
          {
-            $cate['children'] = self::find()->where('parentid = :pid', [":pid" => $cate['cateid']])->asArray->all();             
+            $cate['children'] = self::find()->where('parentid = :pid', [":pid" => $cate['cateid']])->asArray()->all();             
             $data[$k] = $cate;
          }
          return $data;
