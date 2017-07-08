@@ -18403,3 +18403,75 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1499498873.111
     'REQUEST_TIME' => 1499498873
 ]
+2017-07-08 15:55:05 [172.16.67.0][-][tefah99dcs32488cg0hvgnct64][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: cartid' in /data/webroot/views/product/detail.php:77
+Stack trace:
+#0 /data/webroot/views/product/detail.php(77): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/data/webroot/v...', 77, Array)
+#1 /data/webroot/vendor/yiisoft/yii2/base/View.php(325): require('/data/webroot/v...')
+#2 /data/webroot/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/webroot/v...', Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/webroot/v...', Array, Object(app\controllers\ProductController))
+#4 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('detail', Array, Object(app\controllers\ProductController))
+#5 /data/webroot/controllers/ProductController.php(50): yii\base\Controller->render('detail', Array)
+#6 [internal function]: app\controllers\ProductController->actionDetail()
+#7 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('detail', Array)
+#10 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('product/detail', Array)
+#11 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/webroot/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-07-08 15:55:05 [172.16.67.0][-][tefah99dcs32488cg0hvgnct64][info][application] $_GET = [
+    'r' => 'product/detail'
+    'productid' => '13'
+]
+
+$_COOKIE = [
+    'marking' => 'u15gts'
+    'PHPSESSID' => 'tefah99dcs32488cg0hvgnct64'
+    '_csrf' => '4ad770b08bcbaab3ec8252535e4bf5a5d1e315118e305331eea8a1363a302dd5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HU4aWac9j1v8O3WXIN3DLwXluzOWPyhu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=product%2Fdetail&productid=13'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=product%2Fdetail&productid=13'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '55502'
+    'SERVER_ADDR' => '172.16.34.19'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0 FirePHP/0.7.4'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'marking=u15gts; PHPSESSID=tefah99dcs32488cg0hvgnct64; _csrf=4ad770b08bcbaab3ec8252535e4bf5a5d1e315118e305331eea8a1363a302dd5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HU4aWac9j1v8O3WXIN3DLwXluzOWPyhu%22%3B%7D'
+    'HTTP_X_INSIGHT' => 'activate'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499500505.3374
+    'REQUEST_TIME' => 1499500505
+]

@@ -521,37 +521,6 @@
         $("#createlink").click(function(){
             $(".billing-address").slideDown();
         });
-        $(".minus").click(function(){
-            var cartid = $("input[name=productnum]").attr('id');
-            var num = parseInt($("input[name=productnum]").val()) - 1;
-            var total = parseFloat($(".value.pull-right span").html());
-            var price = parseFloat($(".price span").html());
-            changeNum(cartid, num);
-            $(".value.pull-right span").html(total - price);
-            $(".value.pull-right.ordertotal span").html(total - price);
-        });
-        $(".plus").click(function(){
-            var cartid = $("input[name=productnum]").attr('id');
-            var num = parseInt($("input[name=productnum]").val()) + 1;
-            var total = parseFloat($(".value.pull-right span").html());
-            var price = parseFloat($(".price span").html());
-            changeNum(cartid, num);
-            $(".value.pull-right span").html(total + price);
-            $(".value.pull-right.ordertotal span").html(total + price);
-        });
-        function changeNum(cartid, num)
-        {
-            $.get('<?php echo yii\helpers\Url::to(['cart/mod']) ?>', {'productnum':num, 'cartid':cartid}, function(data){});
-        }
-        var total = parseFloat($("#total span").html());
-        $(".le-radio.express").click(function(){
-            var ototal = parseFloat($(this).attr('data')) + total;
-            $("#ototal span").html(ototal);
-        });
-        $("input.address").click(function(){
-            var addressid = $(this).val();
-            $("input[name=addressid]").val(addressid);
-        });
     </script>
     
 </body>
