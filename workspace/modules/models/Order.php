@@ -16,6 +16,7 @@ class Order extends ActiveRecord
     public $zhstatus;
     public $username;
     public $address;
+    public static $userid = 7;
     
     public static $status = [
         self::CREATEORDER => '订单初始化',

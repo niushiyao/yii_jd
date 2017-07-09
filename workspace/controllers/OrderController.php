@@ -86,7 +86,7 @@
                   $post = Yii::$app->request->post();
                   $ordermodel = new Order;
                   $ordermodel->scenario = 'add';
-                  $usermodel = User::find()->where('username = :name or useremail = :email',[':name' => Yii::$app->session['loginname'],[':email' => Yii::$app->session['loginname']]])->one();
+                  $usermodel = User::find()->where('username = :name or useremail = :email',[':name' => Yii::$app->session['loginname'], ':email' => Yii::$app->session['loginname']])->one();
                   if(!$usermodel)
                   {
                       throw new \Exception();
@@ -95,6 +95,7 @@
                   $ordermodel->userid = $userid;
                   $ordermodel->status = Order::CREATEORDER;
                   $ordermodel->createtime = time();
+                  
                   if(!$ordermodel->save())
                   {
                       throw new \Exception();
@@ -117,6 +118,7 @@
               $transaction->commit();
           }catch(\Exception $e)
           {
+              echo $e->getMessage();exit;
               $transaction->rollback();
               return $this->redirect(['cart/index']);
           }

@@ -19111,3 +19111,447 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1499582857.7806
     'REQUEST_TIME' => 1499582857
 ]
+2017-07-09 16:21:40 [172.16.67.0][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\view\order does not exist' in /data/webroot/vendor/yiisoft/yii2/di/Container.php:417
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('app\\view\\order')
+#1 /data/webroot/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('app\\view\\order')
+#2 /data/webroot/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('app\\view\\order', Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('app\\view\\order', Array, Array)
+#4 /data/webroot/vendor/yiisoft/yii2-debug/Module.php(132): yii\BaseYii::createObject(Array)
+#5 /data/webroot/vendor/yiisoft/yii2-debug/Module.php(105): yii\debug\Module->initPanels()
+#6 /data/webroot/vendor/yiisoft/yii2/base/Object.php(107): yii\debug\Module->init()
+#7 /data/webroot/vendor/yiisoft/yii2/base/Module.php(138): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 /data/webroot/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /data/webroot/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 /data/webroot/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 /data/webroot/vendor/yiisoft/yii2/base/Module.php(353): yii\BaseYii::createObject(Array, Array)
+#13 /data/webroot/vendor/yiisoft/yii2/base/Application.php(304): yii\base\Module->getModule('debug')
+#14 /data/webroot/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#15 /data/webroot/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#16 /data/webroot/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#17 /data/webroot/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#18 /data/webroot/web/index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-07-09 16:21:40 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'cart/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=cart%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '53756'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499588500.3398
+    'REQUEST_TIME' => 1499588500
+]
+2017-07-09 16:22:03 [172.16.67.0][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\controllers\order does not exist' in /data/webroot/vendor/yiisoft/yii2/di/Container.php:417
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('app\\controllers...')
+#1 /data/webroot/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('app\\controllers...')
+#2 /data/webroot/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('app\\controllers...', Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('app\\controllers...', Array, Array)
+#4 /data/webroot/vendor/yiisoft/yii2-debug/Module.php(132): yii\BaseYii::createObject(Array)
+#5 /data/webroot/vendor/yiisoft/yii2-debug/Module.php(105): yii\debug\Module->initPanels()
+#6 /data/webroot/vendor/yiisoft/yii2/base/Object.php(107): yii\debug\Module->init()
+#7 /data/webroot/vendor/yiisoft/yii2/base/Module.php(138): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 /data/webroot/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /data/webroot/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 /data/webroot/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 /data/webroot/vendor/yiisoft/yii2/base/Module.php(353): yii\BaseYii::createObject(Array, Array)
+#13 /data/webroot/vendor/yiisoft/yii2/base/Application.php(304): yii\base\Module->getModule('debug')
+#14 /data/webroot/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#15 /data/webroot/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#16 /data/webroot/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#17 /data/webroot/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#18 /data/webroot/web/index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-07-09 16:22:03 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'cart/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=cart%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '54006'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499588523.248
+    'REQUEST_TIME' => 1499588523
+]
+2017-07-09 16:22:22 [172.16.67.0][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\controllers\OrderController.php does not exist' in /data/webroot/vendor/yiisoft/yii2/di/Container.php:417
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('app\\controllers...')
+#1 /data/webroot/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('app\\controllers...')
+#2 /data/webroot/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('app\\controllers...', Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('app\\controllers...', Array, Array)
+#4 /data/webroot/vendor/yiisoft/yii2-debug/Module.php(132): yii\BaseYii::createObject(Array)
+#5 /data/webroot/vendor/yiisoft/yii2-debug/Module.php(105): yii\debug\Module->initPanels()
+#6 /data/webroot/vendor/yiisoft/yii2/base/Object.php(107): yii\debug\Module->init()
+#7 /data/webroot/vendor/yiisoft/yii2/base/Module.php(138): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 /data/webroot/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /data/webroot/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 /data/webroot/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 /data/webroot/vendor/yiisoft/yii2/base/Module.php(353): yii\BaseYii::createObject(Array, Array)
+#13 /data/webroot/vendor/yiisoft/yii2/base/Application.php(304): yii\base\Module->getModule('debug')
+#14 /data/webroot/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#15 /data/webroot/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#16 /data/webroot/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#17 /data/webroot/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#18 /data/webroot/web/index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-07-09 16:22:22 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'cart/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=cart%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '54220'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499588542.0837
+    'REQUEST_TIME' => 1499588542
+]
+2017-07-09 16:22:41 [172.16.67.0][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class controllers\OrderController.php does not exist' in /data/webroot/vendor/yiisoft/yii2/di/Container.php:417
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/di/Container.php(417): ReflectionClass->__construct('controllers\\Ord...')
+#1 /data/webroot/vendor/yiisoft/yii2/di/Container.php(360): yii\di\Container->getDependencies('controllers\\Ord...')
+#2 /data/webroot/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('controllers\\Ord...', Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('controllers\\Ord...', Array, Array)
+#4 /data/webroot/vendor/yiisoft/yii2-debug/Module.php(132): yii\BaseYii::createObject(Array)
+#5 /data/webroot/vendor/yiisoft/yii2-debug/Module.php(105): yii\debug\Module->initPanels()
+#6 /data/webroot/vendor/yiisoft/yii2/base/Object.php(107): yii\debug\Module->init()
+#7 /data/webroot/vendor/yiisoft/yii2/base/Module.php(138): yii\base\Object->__construct(Array)
+#8 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#9 /data/webroot/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#10 /data/webroot/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#11 /data/webroot/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#12 /data/webroot/vendor/yiisoft/yii2/base/Module.php(353): yii\BaseYii::createObject(Array, Array)
+#13 /data/webroot/vendor/yiisoft/yii2/base/Application.php(304): yii\base\Module->getModule('debug')
+#14 /data/webroot/vendor/yiisoft/yii2/web/Application.php(63): yii\base\Application->bootstrap()
+#15 /data/webroot/vendor/yiisoft/yii2/base/Application.php(267): yii\web\Application->bootstrap()
+#16 /data/webroot/vendor/yiisoft/yii2/base/Object.php(107): yii\base\Application->init()
+#17 /data/webroot/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#18 /data/webroot/web/index.php(12): yii\base\Application->__construct(Array)
+#19 {main}
+2017-07-09 16:22:40 [172.16.67.0][-][-][info][application] $_GET = [
+    'r' => 'cart/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=cart%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '54364'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499588560.936
+    'REQUEST_TIME' => 1499588560
+]
+2017-07-09 16:28:26 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare app\modules\models\Order::$status' in /data/webroot/modules/models/Order.php:29
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-07-09 16:28:26 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/add'
+]
+
+$_POST = [
+    '_csrf' => 'ajhRZ0l0UXM1SR0sBDBjKiV5IS8dMSlEC3AeLSwWZ0AfVBARMxoYGg=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '13'
+            'price' => '2499.00'
+            'productnum' => '3'
+        ]
+    ]
+    'productnum' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Fadd'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '191'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Fadd'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '57414'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499588906.1315
+    'REQUEST_TIME' => 1499588906
+]
+2017-07-09 16:31:29 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';', expecting '='' in /data/webroot/modules/models/Order.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-07-09 16:31:29 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/add'
+]
+
+$_POST = [
+    '_csrf' => 'ajhRZ0l0UXM1SR0sBDBjKiV5IS8dMSlEC3AeLSwWZ0AfVBARMxoYGg=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '13'
+            'price' => '2499.00'
+            'productnum' => '3'
+        ]
+    ]
+    'productnum' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Fadd'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '191'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Fadd'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '59174'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499589089.3519
+    'REQUEST_TIME' => 1499589089
+]
