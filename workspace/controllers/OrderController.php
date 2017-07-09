@@ -100,6 +100,7 @@
                   {
                       throw new \Exception();
                   }
+                  
                   $orderid = $ordermodel->getPrimaryKey();
                   foreach($post['OrderDetail'] as $product)
                   {
@@ -112,17 +113,18 @@
                           throw new \Exception();
                       }
                       Cart::deleteAll('productid = :pid',[':pid' => $product['productid']]);
-                      Product::updateAllCounters(['num' => -$product['productnum']], 'productid = :pid',[':pid' => $product['productid']]);
+                      Product::updateAllCounters(['num' => $product['productnum']], 'productid = :pid',[':pid' => $product['productid']]);
                   }
               }
               $transaction->commit();
-          }catch(\Exception $e)
+          }
+          catch(\Exception $e)
           {
               echo $e->getMessage();exit;
               $transaction->rollback();
               return $this->redirect(['cart/index']);
           }
-          return $this->redirect('order/check',['orderid' => $orderid]);
+          return $this->redirect(['order/check', 'orderid' => $orderid]);
       }
     
     /**
