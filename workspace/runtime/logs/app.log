@@ -18475,3 +18475,639 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1499500505.3374
     'REQUEST_TIME' => 1499500505
 ]
+2017-07-09 14:44:13 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method app\controllers\OrderController::getDb()' in /data/webroot/vendor/yiisoft/yii2/db/ActiveQuery.php:310
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-07-09 14:44:12 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '55184'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499582652.8776
+    'REQUEST_TIME' => 1499582652
+]
+2017-07-09 14:45:01 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: orders' in /data/webroot/controllers/OrderController.php:35
+Stack trace:
+#0 /data/webroot/controllers/OrderController.php(35): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/webroot/c...', 35, Array)
+#1 [internal function]: app\controllers\OrderController->actionIndex()
+#2 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#5 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('order/index', Array)
+#6 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /data/webroot/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2017-07-09 14:45:01 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '55566'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499582701.6231
+    'REQUEST_TIME' => 1499582701
+]
+2017-07-09 14:45:12 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: orders' in /data/webroot/views/order/index.php:3
+Stack trace:
+#0 /data/webroot/views/order/index.php(3): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/data/webroot/v...', 3, Array)
+#1 /data/webroot/vendor/yiisoft/yii2/base/View.php(325): require('/data/webroot/v...')
+#2 /data/webroot/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/webroot/v...', Array)
+#3 /data/webroot/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/webroot/v...', Array, Object(app\controllers\OrderController))
+#4 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\OrderController))
+#5 /data/webroot/controllers/OrderController.php(35): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\OrderController->actionIndex()
+#7 /data/webroot/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /data/webroot/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('order/index', Array)
+#11 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /data/webroot/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-07-09 14:45:12 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '55672'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=member%2Fauth'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499582712.84
+    'REQUEST_TIME' => 1499582712
+]
+2017-07-09 14:46:01 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: order/add' in /data/webroot/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('add', Array)
+#1 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('order/add', Array)
+#2 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /data/webroot/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /data/webroot/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/webroot/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-09 14:46:01 [172.16.67.0][-][su098pel8qichg585tlng07173][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+2017-07-09 14:46:00 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/add'
+]
+
+$_POST = [
+    '_csrf' => 'Ym1maW5kNzE9HCoiIyAFaC0sFiE6IU8GAyUpIwsGAQIXAScfFAp.WA=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '13'
+            'price' => '2499.00'
+            'productnum' => '3'
+        ]
+    ]
+    'productnum' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Fadd'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '191'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Fadd'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '56022'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499582760.9822
+    'REQUEST_TIME' => 1499582760
+]
+2017-07-09 14:46:18 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: order/add' in /data/webroot/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('add', Array)
+#1 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('order/add', Array)
+#2 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /data/webroot/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /data/webroot/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/webroot/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-09 14:46:18 [172.16.67.0][-][su098pel8qichg585tlng07173][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+2017-07-09 14:46:18 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/add'
+]
+
+$_POST = [
+    '_csrf' => 'aVJaZVJKNmg2IxYuHw4EMSYTKi0GD05fCBoVLzcoAFscPhsTKCR/AQ=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '13'
+            'price' => '2499.00'
+            'productnum' => '3'
+        ]
+    ]
+    'productnum' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Fadd'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '193'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Fadd'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '56152'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '193'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499582778.0922
+    'REQUEST_TIME' => 1499582778
+]
+2017-07-09 14:46:54 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: order/add' in /data/webroot/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('add', Array)
+#1 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('order/add', Array)
+#2 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /data/webroot/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /data/webroot/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/webroot/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-09 14:46:54 [172.16.67.0][-][su098pel8qichg585tlng07173][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+2017-07-09 14:46:54 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/add'
+]
+
+$_POST = [
+    '_csrf' => 'Yi5temFURmg9XyExLBB0MS1vHTI1ET5fA2YiMAQ2cFsXQiwMGzoPAQ=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '13'
+            'price' => '2499.00'
+            'productnum' => '3'
+        ]
+    ]
+    'productnum' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Fadd'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '191'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Fadd'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '56384'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499582814.2642
+    'REQUEST_TIME' => 1499582814
+]
+2017-07-09 14:47:32 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: order/add' in /data/webroot/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('add', Array)
+#1 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('order/add', Array)
+#2 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /data/webroot/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /data/webroot/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/webroot/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-09 14:47:32 [172.16.67.0][-][su098pel8qichg585tlng07173][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+2017-07-09 14:47:32 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/add'
+]
+
+$_POST = [
+    '_csrf' => 'bmZiUWJYSkExFy4aLxx4GCEnEhk2HTJ2Dy4tGwc6fHIbCiMnGDYDKA=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '13'
+            'price' => '2499.00'
+            'productnum' => '3'
+        ]
+    ]
+    'productnum' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Fadd'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '191'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Fadd'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '56600'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499582852.4285
+    'REQUEST_TIME' => 1499582852
+]
+2017-07-09 14:47:37 [172.16.67.0][-][su098pel8qichg585tlng07173][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: order/add' in /data/webroot/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('add', Array)
+#1 /data/webroot/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('order/add', Array)
+#2 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /data/webroot/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /data/webroot/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /data/webroot/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/webroot/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-07-09 14:47:37 [172.16.67.0][-][su098pel8qichg585tlng07173][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.16.67.0
+    in /data/webroot/views/layouts/main.php:75
+2017-07-09 14:47:37 [172.16.67.0][-][su098pel8qichg585tlng07173][info][application] $_GET = [
+    'r' => 'order/add'
+]
+
+$_POST = [
+    '_csrf' => 'MUJCODcwSlZuMw5zenR4D34DMnBjdTJhUAoNclJSfGVELgNOTV4DPw=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '13'
+            'price' => '2499.00'
+            'productnum' => '3'
+        ]
+    ]
+    'productnum' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_qLKMD2YOApHTEx7aHOJeb63ulAvznIi\";}'
+    'PHPSESSID' => 'su098pel8qichg585tlng07173'
+    'marking' => 'u15gts'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'loginname' => 'imooc_5954df2269fb2'
+    'isLogin' => 1
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/data/webroot/web/index.php'
+    'QUERY_STRING' => 'r=order%2Fadd'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '191'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=order%2Fadd'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/data/webroot/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.3'
+    'REMOTE_ADDR' => '172.16.67.0'
+    'REMOTE_PORT' => '56652'
+    'SERVER_ADDR' => '172.16.98.25'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yiishopjd.p.imooc.io'
+    'HTTP_MONTH' => '05'
+    'HTTP_MARKING' => 'u15gts'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_X_REAL_IP' => '58.132.206.251'
+    'HTTP_X_FORWARDED_FOR' => '58.132.206.251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://yiishopjd.p.imooc.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yiishopjd.p.imooc.io/index.php?r=cart%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=98fd92da85eb698cc83e023bc4e67911a42ee79d70c227c132ba96f594f2eba7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_qLKMD2YOApHTEx7aHOJeb63ulAvznIi%22%3B%7D; PHPSESSID=su098pel8qichg585tlng07173; ; marking=u15gts'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499582857.7806
+    'REQUEST_TIME' => 1499582857
+]
