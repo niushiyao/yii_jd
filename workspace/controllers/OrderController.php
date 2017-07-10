@@ -143,11 +143,16 @@
                  throw new \Exception();
              }
              $post = Yii::$app->request->post();
-             $loginname = Yii::$app->request->session['loginname'];
+             $loginname = Yii::$app->session['loginname'];
              $usermodel = User::find()->where('username = :name or useremail = :email',[':name' => $loginname, ':email' => $loginname])->one();
              if(empty($usermodel))
              {
                  throw new \Exception();
+             }
+             $userid = $usermodel->userid;
+             $model = Order::find()->where('orderid = :oid and userid = :uid', [':oid' => $post['orderid'], ':uid' => $userid])->one();
+             if (empty($model)) {
+                throw new \Exception();
              }
              $model->scenario = 'update';
              $post['status'] = Order::CHECKORDER;

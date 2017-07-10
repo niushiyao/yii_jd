@@ -12,7 +12,7 @@
                     <?php foreach($addresses as $address): ?>
                     <div class="row field-row" style="margin-top:10px">
                         <div class="col-xs-12">
-                            <input class="le-radio big address" type="radio" name="address" value="<?php echo $address['addressid'] ?>" />
+                            <input class="le-radio big address" type="radio" id="address" name="address" value="<?php echo $address['addressid'] ?>" />
                             <a class="simple-link bold" href="#"><?php echo $address['firstname'].$address['lastname']." ".$address['company']." ".$address['address']. " " . $address['postcode']. " ". $address['email']." ".$address['telephone'] ?></a>
                         </div>
                         <a style="margin-left:45px" href="<?php echo yii\helpers\Url::to(['address/del', 'addressid' => $address['addressid']]) ?>">删除</a>
@@ -162,4 +162,5 @@
 </section><!-- /#checkout-page -->
 <!-- ========================================= CONTENT : END ========================================= -->		<!-- ============================================================= FOOTER ============================================================= -->
 <input type="hidden" value="<?php echo (int)\Yii::$app->request->get("orderid"); ?>" name="orderid">
+
 <?php ActiveForm::end(); ?>

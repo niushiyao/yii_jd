@@ -521,6 +521,11 @@
         $("#createlink").click(function(){
             $(".billing-address").slideDown();
         });
+        
+        $("#address").click(function(){
+            var addressid = $(this).val();    
+            $("input[name=addressid]").val(addressid);    
+        });
     </script>
     
 </body>

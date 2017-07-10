@@ -8,4 +8,12 @@ class Address extends ActiveRecord
     {
         return "{{%address}}";
     }
+    
+    public function rules()
+    {
+        return [
+            [['userid', 'firstname', 'lastname', 'address', 'email', 'telephone'], 'required'],
+            [['createtime', 'postcode'],'safe'],
+        ];
+    }
 }
