@@ -4,84 +4,72 @@ include_once 'AlipayCore.php';
 include_once 'AlipayMD5.php';
 include_once 'AlipayNotify.php';
 class AlipayPay {
-
-    //¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ýÇëÔÚÕâÀïÅäÖÃÄúµÄ»ù±¾ÐÅÏ¢¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý¡ý
+    //â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“è¯·åœ¨è¿™é‡Œé…ç½®æ‚¨çš„åŸºæœ¬ä¿¡æ¯â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“
     /**
-     * @var String ºÏ×÷Éí·ÝÕßid£¬ÒÔ2088¿ªÍ·µÄ16Î»´¿Êý×Ö
+     * @var String åˆä½œèº«ä»½è€…idï¼Œä»¥2088å¼€å¤´çš„16ä½çº¯æ•°å­—
      */
-    public $partner = '';
-
+    //public $partner = '2088121774041830';
+    public $partner = '2088021460567292';
     /**
-     * @var String ÊÕ¿îÖ§¸¶±¦ÕËºÅ
+     * @var String æ”¶æ¬¾æ”¯ä»˜å®è´¦å·
      */
-    public $seller_email = '';
-
+    public $seller_email = 'hr@imooc.com';
     /**
-     * @var String °²È«¼ìÑéÂë£¬ÒÔÊý×ÖºÍ×ÖÄ¸×é³ÉµÄ32Î»×Ö·û
+     * @var String å®‰å…¨æ£€éªŒç ï¼Œä»¥æ•°å­—å’Œå­—æ¯ç»„æˆçš„32ä½å­—ç¬¦
      */
-    public $key = '';
-
-    //¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡üÇëÔÚÕâÀïÅäÖÃÄúµÄ»ù±¾ÐÅÏ¢¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü¡ü
-
+    public $key = 'mof755nxp43dxg9a4ts5uone4nw3lib8';
+    //â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘è¯·åœ¨è¿™é‡Œé…ç½®æ‚¨çš„åŸºæœ¬ä¿¡æ¯â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘
     /**
-     * @var String Ç©Ãû·½Ê½ ²»ÐèÐÞ¸Ä
+     * @var String ç­¾åæ–¹å¼ ä¸éœ€ä¿®æ”¹
      */
     public $sign_type = 'MD5';
-
     /**
-     * @var String ×Ö·û±àÂë¸ñÊ½ Ä¿Ç°Ö§³Ö gbk »ò utf-8
+     * @var String å­—ç¬¦ç¼–ç æ ¼å¼ ç›®å‰æ”¯æŒ gbk æˆ– utf-8
      */
     public $input_charset = 'utf-8';
-
     /**
-     * @var String caÖ¤ÊéÂ·¾¶µØÖ·£¬ÓÃÓÚcurlÖÐsslÐ£Ñé
-     * Çë±£Ö¤cacert.pemÎÄ¼þÔÚµ±Ç°ÎÄ¼þ¼ÐÄ¿Â¼ÖÐ
+     * @var String caè¯ä¹¦è·¯å¾„åœ°å€ï¼Œç”¨äºŽcurlä¸­sslæ ¡éªŒ
+     * è¯·ä¿è¯cacert.pemæ–‡ä»¶åœ¨å½“å‰æ–‡ä»¶å¤¹ç›®å½•ä¸­
      */
     public $cacert = '\cacert.pem';
-
     /**
-     * @var String ·ÃÎÊÄ£Ê½,¸ù¾Ý×Ô¼ºµÄ·þÎñÆ÷ÊÇ·ñÖ§³Össl·ÃÎÊ£¬ÈôÖ§³ÖÇëÑ¡Ôñhttps£»Èô²»Ö§³ÖÇëÑ¡Ôñhttp
+     * @var String è®¿é—®æ¨¡å¼,æ ¹æ®è‡ªå·±çš„æœåŠ¡å™¨æ˜¯å¦æ”¯æŒsslè®¿é—®ï¼Œè‹¥æ”¯æŒè¯·é€‰æ‹©httpsï¼›è‹¥ä¸æ”¯æŒè¯·é€‰æ‹©http
      */
     public $transport = 'http';
-
     /**
-     * @var String ·þÎñÆ÷Òì²½Í¨ÖªÒ³ÃæÂ·¾¶
-     * Ðèhttp://¸ñÊ½µÄÍêÕûÂ·¾¶£¬²»ÄÜ¼Ó?id=123ÕâÀà×Ô¶¨Òå²ÎÊý
+     * @var String æœåŠ¡å™¨å¼‚æ­¥é€šçŸ¥é¡µé¢è·¯å¾„
+     * éœ€http://æ ¼å¼çš„å®Œæ•´è·¯å¾„ï¼Œä¸èƒ½åŠ ?id=123è¿™ç±»è‡ªå®šä¹‰å‚æ•°
      */
-    public $notify_url = '';
-
+    public $notify_url = 'http://shop.mr-jason.com/notify.php';
     /**
-     * @var String Ò³ÃæÌø×ªÍ¬²½Í¨ÖªÒ³ÃæÂ·¾¶
-     * Ðèhttp://¸ñÊ½µÄÍêÕûÂ·¾¶£¬²»ÄÜ¼Ó?id=123ÕâÀà×Ô¶¨Òå²ÎÊý£¬²»ÄÜÐ´³Éhttp://localhost/
+     * @var String é¡µé¢è·³è½¬åŒæ­¥é€šçŸ¥é¡µé¢è·¯å¾„
+     * éœ€http://æ ¼å¼çš„å®Œæ•´è·¯å¾„ï¼Œä¸èƒ½åŠ ?id=123è¿™ç±»è‡ªå®šä¹‰å‚æ•°ï¼Œä¸èƒ½å†™æˆhttp://localhost/
      */
-    public $return_url = '';
+    public $return_url = 'http://shop.mr-jason.com/index.php?r=pay/return';
     public $extra_common_param = '';
-
     /**
      * @name requestPay
      * @desc
-     * @param $out_trade_no String ÉÌ»§¶©µ¥ºÅ£¬ÉÌ»§ÍøÕ¾¶©µ¥ÏµÍ³ÖÐÎ¨Ò»¶©µ¥ºÅ£¬±ØÌî
-     * @param $subject String ¶©µ¥Ãû³Æ
-     * @param $total_fee String ¸¶¿î½ð¶î
-     * @param $body String ¶©µ¥ÃèÊö
-     * @param $show_url String ÉÌÆ·Õ¹Ê¾µØÖ·
-     * @return String Ìø×ªHTML
+     * @param $out_trade_no String å•†æˆ·è®¢å•å·ï¼Œå•†æˆ·ç½‘ç«™è®¢å•ç³»ç»Ÿä¸­å”¯ä¸€è®¢å•å·ï¼Œå¿…å¡«
+     * @param $subject String è®¢å•åç§°
+     * @param $total_fee String ä»˜æ¬¾é‡‘é¢
+     * @param $body String è®¢å•æè¿°
+     * @param $show_url String å•†å“å±•ç¤ºåœ°å€
+     * @return String è·³è½¬HTML
      */
     public function requestPay($out_trade_no, $subject, $total_fee, $body, $show_url) {
-        /*         * ************************ÇëÇó²ÎÊý************************* */
-        //Ö§¸¶ÀàÐÍ
+        /*         * ************************è¯·æ±‚å‚æ•°************************* */
+        //æ”¯ä»˜ç±»åž‹
         $payment_type = "1";
-        //±ØÌî£¬²»ÄÜÐÞ¸Ä
-        //·ÀµöÓãÊ±¼ä´Á
+        //å¿…å¡«ï¼Œä¸èƒ½ä¿®æ”¹
+        //é˜²é’“é±¼æ—¶é—´æˆ³
         $anti_phishing_key = "";
-        //ÈôÒªÊ¹ÓÃÇëµ÷ÓÃÀàÎÄ¼þsubmitÖÐµÄquery_timestampº¯Êý
-        //¿Í»§¶ËµÄIPµØÖ·
+        //è‹¥è¦ä½¿ç”¨è¯·è°ƒç”¨ç±»æ–‡ä»¶submitä¸­çš„query_timestampå‡½æ•°
+        //å®¢æˆ·ç«¯çš„IPåœ°å€
         $exter_invoke_ip = "";
-        //·Ç¾ÖÓòÍøµÄÍâÍøIPµØÖ·£¬Èç£º221.0.0.1
-
+        //éžå±€åŸŸç½‘çš„å¤–ç½‘IPåœ°å€ï¼Œå¦‚ï¼š221.0.0.1
         /*         * ********************************************************* */
-
-        //¹¹ÔìÒªÇëÇóµÄ²ÎÊýÊý×é£¬ÎÞÐè¸Ä¶¯
+        //æž„é€ è¦è¯·æ±‚çš„å‚æ•°æ•°ç»„ï¼Œæ— éœ€æ”¹åŠ¨
         $parameter = array(
             "service" => "create_direct_pay_by_user",
             "partner" => trim($this->partner),
@@ -99,29 +87,24 @@ class AlipayPay {
             "exter_invoke_ip" => $exter_invoke_ip,
             "_input_charset" => trim(strtolower($this->input_charset))
         );
-
-        //½¨Á¢ÇëÇó
+        //å»ºç«‹è¯·æ±‚
         $alipaySubmit = new AlipaySubmit($this->bulidConfig());
-        $html_text = $alipaySubmit->buildRequestForm($parameter, "get", "È·ÈÏ");
+        $html_text = $alipaySubmit->buildRequestForm($parameter, "get", "ç¡®è®¤");
         return $html_text;
     }
-
     public function verifyNotify() {
         $alipayNotify = new AlipayNotify($this->bulidConfig());
         $verify_result = $alipayNotify->verifyNotify();
-
         return $verify_result;
     }
-
     public function verifyReturn() {
         $alipayNotify = new AlipayNotify($this->bulidConfig());
         $verify_result = $alipayNotify->verifyReturn();
         
         return $verify_result;
     }
-
     private function bulidConfig() {
-        //¹¹ÔìÒªÇëÇóµÄÅäÖÃÊý×é
+        //æž„é€ è¦è¯·æ±‚çš„é…ç½®æ•°ç»„
         $alipay_config = array(
             'partner' => $this->partner,
             'seller_email' => $this->seller_email,
@@ -133,5 +116,4 @@ class AlipayPay {
         );
         return $alipay_config;
     }
-
 }
