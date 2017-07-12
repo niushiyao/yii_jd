@@ -5,8 +5,9 @@ use app\modules\models\User;
 use app\modules\models\Profile;
 use Yii;
 use yii\data\Pagination;
+use app\modules\controllers\CommonController;
 
-class UserController extends Controller
+class UserController extends CommonController
 {
     /**
      * 用户列表

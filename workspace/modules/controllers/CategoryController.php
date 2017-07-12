@@ -3,8 +3,9 @@ namespace app\modules\controllers;
 use yii\web\Controller;
 use app\modules\models\Category;
 use Yii;
+use app\modules\controllers\CommonController;
 
-class CategoryController extends Controller
+class CategoryController extends CommonController
 {
     /**
      * 分类列表

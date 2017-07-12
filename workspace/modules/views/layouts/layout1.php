@@ -220,7 +220,7 @@
                     <i class="icon-chevron-down"></i>
                 </a>
                 <ul class="submenu">
-                <li><a href="/index.php?r=admin%2Forder%2Flist">订单列表</a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['order/list']);?>">订单列表</a></li>
                 </ul>
             </li>
 

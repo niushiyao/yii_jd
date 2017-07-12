@@ -3,9 +3,9 @@
 namespace app\modules\controllers;
 
 use yii\web\Controller;
-//use app\modules\controllers\CommonController;
+use app\modules\controllers\CommonController;
 
-class DefaultController extends Controller
+class DefaultController extends CommonController
 {
     public function actionIndex()
     {

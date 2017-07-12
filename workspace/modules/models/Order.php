@@ -4,6 +4,7 @@ use yii\db\ActiveRecord;
 use app\modules\models\OrderDetail;
 use app\modules\models\Product;
 use app\modules\models\Category;
+use app\models\Address;
 class Order extends ActiveRecord
 {
     const CREATEORDER = 0;

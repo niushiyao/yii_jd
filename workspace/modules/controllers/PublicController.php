@@ -3,6 +3,7 @@ namespace app\modules\controllers;
 use yii\web\Controller;
 use app\modules\models\Admin;
 use Yii;
+use app\modules\controllers\CommonController;
 
 class PublicController extends Controller
 {
