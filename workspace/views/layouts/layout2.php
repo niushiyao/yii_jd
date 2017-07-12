@@ -1452,7 +1452,28 @@
    }    
    $(".value.pull-right span").html(p + "");    
    $(".value.pull-right.ordertotal span").html(p + "");    
-});    
+}); 
+
+$(".express").hover(function(){
+            var a = $(this);
+            if ($(this).attr('data') != 'ok') {
+            $.get('<?php echo yii\helpers\Url::to(['order/getexpress']) ?>', {'expressno':$(this).attr('data')}, function(res) {
+                var str = "";
+                if (res.message = 'ok') {
+                    for(var i = 0;i<res.data.length;i++) {
+                        str += "<p>"+res.data[i].context+" "+res.data[i].time+" </p>";
+                    }
+                }
+                a.find(".expressshow").html(str);
+                a.attr('data', 'ok');
+            }, 'json');
+            }
+            $(this).find(".expressshow").show();
+        }, function(){
+            $(this).find(".expressshow").hide();
+        });
+        
+        
 $(".plus").click(function(){
     
    var cartid = $("input[name=productnum]").attr('id');    

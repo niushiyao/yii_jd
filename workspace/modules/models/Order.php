@@ -94,7 +94,7 @@ class Order extends ActiveRecord
     /**
      * 获得订单商品
      */
-     public function getProducts($userid)
+     public static function getProducts($userid)
      {
          $orders = self::find()->where('status > 0 and userid = :uid',[':uid' => $userid])->orderBy('createtime desc')->all();
          foreach($orders as $order)
